@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="bootstrap/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/mainpage.css">
+    <script src="js/time.js"></script>
+    <link rel="shortcut icon" href="http://res.cloudinary.com/oi12345/image/upload/v1502140358/dua_icon_cgxl0i.png">
+    <title>Dua Application</title>
+</head>
+<body onload="startTime(),setDate(),setUserName(),newPost()">
+
+<!--Navbar starts-->
+<nav class="navbar navbar-inverse" id="headNav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="javascript:void(0)" style="color:white;padding-top:0%">
+        <img src="http://res.cloudinary.com/oi12345/image/upload/v1502140357/dua_hvluns.png" alt="Logo">
+      </a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+        <li class="login-listitems"><a href="javascript:void(0)" id="newpost" onclick="newPost()" style="color:white">New Post</a></li>
+        <li class="login-listitems"><a href="javascript:void(0)" id="username" style="color:white">Hello</a></li>
+        <li class="login-listitems"><a href="javascript:void(0)" id="date" style="color:white"></a></li>
+        <li class="login-listitems"><a href="javascript:void(0)" id="time" style="color:white"></a></li>
+        <li class="login-listitems"><a href="javascript:void(0)" id="logout" style="color:white">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<!--Navbar ends-->
+
+  <div class="row">
+    <div class="col-sm-9" id="maindiv">
+     
+     <!--<div id="writediv">
+        <label id="writehead">Write your post</label>
+        <br>
+        <textarea rows="5" cols="45" id="commentbox"></textarea>
+        <br>
+        <button id="postbutton" onclick="addNewPost()">Post</button>
+     </div>-->
+
+        <!--<div id="allpost">
+                <div class="postdiv">
+                    <h4 class="postby">Omar Iqbal</h4>
+                    <h6 class="dt">07/8/2017 11:59 pm</h6>
+                    <p class="posts">Please Pray for my father!afffffffffffffffffffffffffffffffffffff</p>
+                    <a href="javascript:void(0)" class="likeclass" id="like1" onclick="like()">Like(1)</a>
+                </div>
+            </div>-->
+
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+ <script src="js/mainpage.js"></script>
+</body>
+</html>

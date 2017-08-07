@@ -1,0 +1,58 @@
+body{
+    background-color: #d8dfea;
+}
+#headNav{
+background-color:#3b5998;
+border:none;
+border-radius:0px;
+width:100%;
+}
+#signupNav{
+color:white;
+}
+#loginNav{
+color:white;
+}
+#signupNav:hover,#loginNav:hover{
+    opacity: 0.5;
+}
+form{
+    margin: 0px auto;
+}
+#totaldiv{
+height: 80%;
+width:60%;
+margin:0px auto;
+}
+#login{
+    width:100%;
+    margin:0px auto;
+    background-color:#3b5998;
+    color: white;
+    border-radius: 0px;
+}
+#login:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.login-fields{
+    width:90%;
+    margin:0px auto;
+}
+.login-listitems{
+    padding-top: 2%;
+}
+#heading1{
+    font-weight: bold;
+}
+#createButton{
+    background-color: rgba(110,170,89,1);
+    font-size: 160%;
+    float:right;
+    border-radius: 5px;
+    font-weight: bold;
+    color:#ffffff;
+    border: 1px solid black;
+}
+#createButton:hover{
+    background-color: rgba(110,170,89,0.7);
+}
